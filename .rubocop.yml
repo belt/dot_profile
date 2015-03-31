@@ -1,0 +1,12 @@
+# https://github.com/bbatsov/rubocop/blob/master/config/default.yml
+#
+# rubocop --format offenses 
+
+Metrics/LineLength:
+  #Enabled: false
+  Max: 100
+
+Style/StringLiterals:
+  Enabled: false
+  #EnforcedStyle: single_quotes
+
